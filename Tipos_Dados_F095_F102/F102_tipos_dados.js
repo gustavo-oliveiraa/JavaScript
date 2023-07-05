@@ -1,4 +1,3 @@
-/*
 #F102 - Conclusão
 
   # Tipos de dados
@@ -37,5 +36,3 @@
   * null
 
   // ao mesmo tempo ele é primitivo e estrutural
-
-*/
