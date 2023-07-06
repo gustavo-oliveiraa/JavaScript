@@ -4,8 +4,7 @@
   console.log(x)
 }
 
-
-
+--------------------------------------------------------------
 
 // var é global e também local
 // global = tudo que está executando na aplicação
@@ -22,7 +21,7 @@ console.log('> existe x depois do bloco? ', x)
 
 
 
-//  hoisting / quando for var isso ocorre, pela var ser global
+//  hoisting / quando for "var" isso ocorre, pela "var" ser global
   var x
 
   console.log('> existe x antes do bloco? ', x)
