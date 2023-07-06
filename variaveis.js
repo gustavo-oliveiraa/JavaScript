@@ -1,12 +1,15 @@
 /*
-// var
+*  var
+*  declaração
+
 var clima = "Quente"
 clima = "Frio"
 
 console.log(clima)
 */
+
 /*
-// let
+*  let
 let clima = "Quente"
 clima = "Frio"
 
