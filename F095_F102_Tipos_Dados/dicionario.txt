@@ -1,0 +1,191 @@
+JavaScript Core (nucleo/ principais)
+
+linguagem de programação
+
+roda em navegador (front-end)
+
+roda no computador (back-end)
+
+Podemos criar aplicações web, mobile (React Native (framework)), desktop (Electron (framework (biblioteca)))
+
+#F095 até #F102
+Tipos de Dados:
+
+/*
+  #F096 - String 
+
+  * Cadeia de caracteres 
+
+  "" // aspas duplas
+  '' // aspas simples
+  `` // template literals ou template strings
+
+  as crases permitem a gente fazer multi linha
+
+  se usar um para o texto caso queira que tenha outra dentro tem que ser de outro modelo
+
+  console.log('Mayk')
+
+console.log(`
+Mayk 
+Santos
+`)
+
+//Essa possibilidade de colocar esses valores são chamadas de interpolação
+//interpolação = colocar expressões de uma template literal/string
+
+console.log(`Mayk ${1 + 1}`) 
+
+//expreções de linguagem (${...}) / somente dentro das crases
+
+console.log(1 + 1)
+*/
+
+
+
+/*
+  #F097 - Number
+    * números
+
+  33 // inteiros
+  12.5 // reais - float
+  NaN // Not a Number
+  Infinity // infinito
+
+console.log(33)
+
+console.log(-33)
+
+console.log(12.5)
+
+console.log(12.5 + 12)
+
+console.log(12.5 / 12)
+
+console.log(12.5 / "asdf")  //informa que é NaN (Not a Number)
+
+// para igualar um valor é "===" 
+
+console.log(12.5 === Infinity)  //verifica se é verdadeiro ou falos
+
+console.log(Infinity) //Infinity é so a palavra infinito
+*/
+
+
+
+/*
+  #F098 - Boolean
+  
+    * somente 2 valores
+
+    true // verdadeiro
+    false // falso
+
+console.log(true)
+console.log(false)
+*/
+
+
+
+/* 
+  F098
+  * undefined
+      * indefinido
+       
+  * null
+       * nulo
+       * objeto que não possui nada dentro
+       * diferente de indefinido           
+
+console.log(undefined)  // é algo que não vai existir 
+
+console.log(null) //algo que existe mas não tem nada dentro dele
+
+console.log(null === undefined)
+*/
+
+
+
+/*
+  #F100
+  * Object
+      * Objeto
+      * Propriedades / Atributos
+      * Funcionalidades / Métodos
+  
+  { propriedade: "valor" } // assim que se escreve um obj em JS
+
+  object = dado estrutural --> cria uma estrutura
+
+console.log({
+  name: "Mayk", // propriedade-atributos
+  idade: 36,
+  andar: function() { // funcionalidade-metodo
+    console.log('andar')
+  }
+})
+*/
+
+/* 
+  #F101
+  * Array (Vetores)
+      * Uma lista
+      * Agrupamento de dado
+      
+      ["Mayk", 36]
+
+  Array = dado estrutural
+
+console.log([ // Lista
+  "Leite",
+  3, 
+  "Ovos",
+  12,
+  "Carne",
+  2
+])
+*/
+
+
+
+/*
+#F102 - Conclusão
+
+  # Tipos de dados
+
+  Conforme o ECMAScript standard temos 9 tipos de dados:
+    ECMAScript = orgão que padroniza o java script  /  standard = padrão
+
+  * Data types
+        * Primitive / Primitive value
+        * Structural
+        * Structural Primitive
+         
+  ##  Primitivos
+
+  //  dados primitivos: ñ é um objeto e seu valor é único e imutável!
+  
+  * String
+  * Number
+  * Boolean // true or false / criar caminhos
+  * undefined // ve bastante em termos de erros / criar erros
+  * Symbol
+  * BigInt
+
+  ## Estruturais
+
+* Object  // todo objeto tem alguma funcionalidade e atributo
+    * Array
+    * Map
+    * Set
+    * Date
+    * ...  
+* Function  // veremos mais na frente
+
+  ## Primitivo Estrutural / Structural Root Primitive
+
+  * null
+
+  // ao mesmo tempo ele é primitivo e estrutural
+
+*/
