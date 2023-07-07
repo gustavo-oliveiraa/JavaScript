@@ -95,6 +95,6 @@ console.log('> existe y depois do bloco? ', y)
 - Ideal:
     * Criar nomes que fazem sentido
     * Que explique o que a variável é ou faz
-    * camelCase
-    * snake_case
+    * camelCase --> checkIfNameExists
+    * snake_case --> check_if_name_exists
     * Escrever em inglês
