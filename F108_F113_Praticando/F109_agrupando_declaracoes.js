@@ -9,5 +9,14 @@ name = 'Mike'
 
 console.log(typeof name)
 
+/*
 let age = 20
 let isHuman = true
+*/
+
+//declarações conjuntas --> agrupar as declarações
+// agrupamento de declarações
+let age, isHuman
+
+age = 20
+isHuman = true
