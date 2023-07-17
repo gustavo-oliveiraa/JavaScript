@@ -7,7 +7,7 @@ name = 'Mike'
 
 // que tipo de dado foi colocado na variável
 
-console.log(typeof name)
+// console.log(typeof name)
 
 /*
 let age = 20
@@ -20,3 +20,6 @@ let age, isHuman
 
 age = 20
 isHuman = true
+
+// estão passando multiplo argumentos para essa função (com uso da ",") 
+console.log(name, age, isHuman)
