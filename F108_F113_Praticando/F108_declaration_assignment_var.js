@@ -8,3 +8,7 @@ name = 'Mike'
 // que tipo de dado foi colocado na variável
 
 console.log(typeof name)
+// resposta = String
+
+console.log(name)
+// resposta = Mike
