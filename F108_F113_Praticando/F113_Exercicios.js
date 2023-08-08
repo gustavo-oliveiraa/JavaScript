@@ -1,8 +1,10 @@
 // 1. Declare uma variável de nome weight
-// Resposta:	let weight;
+// Resposta:	
+let weight;
 
 // 2. Que tipo de dado é a variavel acima?
-// Resposta:	console.log(typeof weight); // undefined
+// Resposta:	
+console.log(typeof weight); // undefined
 
 /* 3. Declare uma variável e atribua valores para cada um dos dados:
 	* name: String
@@ -10,12 +12,12 @@
 	* weight: Number (float)
 	* isSubscribed: Boolean
 */
-/* Resposta:
+// Resposta:
 	let name = 'Gustavo'
 	let age = 20
 	let weight = 100.3
 	let isSubscribed = true
-*/
+
 /* 
    4. A variável student abaixo é de que tipo de dado?
 
@@ -35,9 +37,9 @@ let student = {
 	isSubscribed: true
 };
 
-// console.log(typeof student) // object
+console.log(typeof student) // object
 
-// console.log(`${student.name} de idade ${student.age} pesa ${student.weight} kg.`)
+console.log(`${student.name} de idade ${student.age} pesa ${student.weight} kg.`)
 
 /*
 	5. Declare uma variável do tipo Array, de nome students e atribua a ela nenhum valor, ou seja, somente o Array vazio
@@ -65,9 +67,31 @@ console.log(students[0])
 
 	const john = {
 		name: "John",
-		age: 22,
-		weight: 80.2,
+		age: 23,
+		weight: 74.8,
 		isSubscribed: true
 	}
+/* 
+// Uma maneira de fazer
+    students = [
+        student,
+        john
+    ] 
+    console.log(students)
+*/
 
-	
+// Outra maneira de fazer
+students[1] = john;
+console.log(students)
+
+/*
+    9. Sem rodar o código responda qual é a resposta do código abaixo e por que? Após sua resposta, rode o código e veja se você acertou.
+
+    console.log(a) undefinied, ela sofre o hoisting e so possui a declaração
+    var a = 1
+ */
+//hoisting
+    var a
+
+    console.log(a)
+    a = 1
