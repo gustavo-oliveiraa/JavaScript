@@ -1,26 +1,21 @@
 // 1. Declare uma variável de nome weight
-
-// Resposta:
-let weight;
+// Resposta:	let weight;
 
 // 2. Que tipo de dado é a variavel acima?
-
-// Resposta:	
-console.log(typeof weight) // undefined
+// Resposta:	console.log(typeof weight); // undefined
 
 /* 3. Declare uma variável e atribua valores para cada um dos dados:
 	* name: String
 	* age: Number (integer)
-	* stars: Number (float)
+	* weight: Number (float)
 	* isSubscribed: Boolean
 */
-
-// Resposta:
+/* Resposta:
 	let name = 'Gustavo'
 	let age = 20
-	let stars = 4.5
+	let weight = 100.3
 	let isSubscribed = true
-
+*/
 /* 
    4. A variável student abaixo é de que tipo de dado?
 
@@ -32,8 +27,7 @@ console.log(typeof weight) // undefined
 
 	Atenção, substitua <name> <age> e <weight> pelos valores de cada propriedade do objeto
 */
-
-// Resposta: 
+//	Resposta: 
 let student = {
 	name: 'Gustavo',
 	age: 20,
@@ -41,9 +35,9 @@ let student = {
 	isSubscribed: true
 };
 
-console.log(typeof student) // object
+// console.log(typeof student) // object
 
-console.log(`${student.name} de idade ${student.age} pesa ${student.weight} kg.`)
+// console.log(`${student.name} de idade ${student.age} pesa ${student.weight} kg.`)
 
 /*
 	5. Declare uma variável do tipo Array, de nome students e atribua a ela nenhum valor, ou seja, somente o Array vazio
@@ -69,11 +63,11 @@ console.log(students[0])
 	8. Crie um novo student e coloque na posição 1 do Array students
  */
 
-const john = {
-       name: "John",
-	age: 22,
-	weight: 80.2,
-	isSubscribed: true
-}
+	const john = {
+		name: "John",
+		age: 22,
+		weight: 80.2,
+		isSubscribed: true
+	}
 
 	
