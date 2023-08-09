@@ -3,7 +3,7 @@
 
 // parâmetros (parameters)
 const sum = function(number1, number2){
-    total = number1 + number2
+    let total = number1 + number2
     return total
 }
 
