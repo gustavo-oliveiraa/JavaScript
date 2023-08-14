@@ -6,5 +6,5 @@
 let word = "Programar é muito bacana!"
 console.log(word.toUpperCase())
 
-// let word = "Programar é muito bacana!"
-// console.log(word.toLowerCase())
+let word = "Programar é muito bacana!"
+console.log(word.toLowerCase())
