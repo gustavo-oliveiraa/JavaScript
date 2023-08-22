@@ -7,11 +7,12 @@
 
 // Exemplos
 // Café da manhã top
+
 let pao = true
 let queijo = true
 
-const niceBreakfast = pao || queijo ? 'Café top' : 'Café ruim'
-//                        &&
+const niceBreakfast = pao && queijo ? 'Café top' : 'Café ruim'
+//                        ||
 
 console.log(niceBreakfast)
 
