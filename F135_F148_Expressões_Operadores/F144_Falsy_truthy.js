@@ -2,11 +2,8 @@
     Type conversion (typecasting) vc Type coersion
 */
 
-//  console.log(Number('9') + 5)
-//  console.log('9' + 5)
-
-
-
+console.log(Number('9') + 5)
+console.log('9' + 5)
 
 
 
@@ -26,7 +23,6 @@
 
 console.log( false ? 'verdadeiro' : 'falso' )
 //  se for verdadeiro escreva "verdadeiro" se não escreva "false"
-
 
 
 
